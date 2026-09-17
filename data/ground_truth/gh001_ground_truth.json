@@ -1,0 +1,67 @@
+{
+  "schema_version": "1.0",
+  "control": "GH-001",
+  "description": "Ground Truth dataset for GH-001 evaluation metrics. Cases are empirically validated against controlled synthetic repositories.",
+  "cases": [
+    {
+      "case_id": "GT-GH001-01",
+      "scenario": "PASS - valid protection",
+      "repository": "Medalcode/securecode-ground-truth",
+      "branch": "branch-case-1-pass",
+      "expected_approvals": 2,
+      "expected_dismiss_stale": true,
+      "expected_status": "PASS",
+      "rationale": "Empirically validated. Expected to be PASS (approvals >= 2 and dismiss_stale = true)."
+    },
+    {
+      "case_id": "GT-GH001-02",
+      "scenario": "FAIL - insufficient approvals",
+      "repository": "Medalcode/securecode-ground-truth",
+      "branch": "branch-case-2-fail-low-approvals",
+      "expected_approvals": 1,
+      "expected_dismiss_stale": true,
+      "expected_status": "FAIL",
+      "rationale": "Empirically validated. Expected to be FAIL (approvals < 2)."
+    },
+    {
+      "case_id": "GT-GH001-03",
+      "scenario": "FAIL - dismiss stale reviews disabled",
+      "repository": "Medalcode/securecode-ground-truth",
+      "branch": "branch-case-3-fail-no-dismiss",
+      "expected_approvals": 2,
+      "expected_dismiss_stale": false,
+      "expected_status": "FAIL",
+      "rationale": "Empirically validated. Expected to be FAIL (dismiss_stale = false)."
+    },
+    {
+      "case_id": "GT-GH001-04",
+      "scenario": "FAIL - both conditions violated",
+      "repository": "Medalcode/securecode-ground-truth",
+      "branch": "branch-case-4-fail-both",
+      "expected_approvals": 1,
+      "expected_dismiss_stale": false,
+      "expected_status": "FAIL",
+      "rationale": "Empirically validated. Expected to be FAIL (approvals < 2 and dismiss_stale = false)."
+    },
+    {
+      "case_id": "GT-GH001-05",
+      "scenario": "UNKNOWN - absence of protection",
+      "repository": "Medalcode/securecode-ground-truth",
+      "branch": "branch-case-5-unprotected",
+      "expected_approvals": null,
+      "expected_dismiss_stale": null,
+      "expected_status": "UNKNOWN",
+      "rationale": "Empirically validated. Expected to be UNKNOWN (no branch protection feature/rules found)."
+    },
+    {
+      "case_id": "GT-GH001-06",
+      "scenario": "UNKNOWN - incomplete evidence",
+      "repository": "Medalcode/securecode-ground-truth",
+      "branch": "branch-case-6-status-checks-only",
+      "expected_approvals": null,
+      "expected_dismiss_stale": null,
+      "expected_status": "UNKNOWN",
+      "rationale": "Empirically validated. Expected to be UNKNOWN (partial evidence returned by API/permissions issue)."
+    }
+  ]
+}
