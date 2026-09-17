@@ -84,6 +84,7 @@ Per the academic definition established in `docs/specs/METRICS.md`:
 securecode-ground-truth/
 ├── benchmark/
 │   ├── __init__.py
+│   ├── metadata.py                 # Benchmark result metadata models & validation
 │   └── metrics.py                  # calculate_metrics() implementation
 ├── data/
 │   └── ground_truth/
@@ -96,6 +97,7 @@ securecode-ground-truth/
 │       └── MIGRATION.md            # Benchmark migration specification & audit history
 ├── tests/
 │   ├── unit/
+│   │   ├── test_metadata.py        # 9 unit tests covering metadata models & validation
 │   │   └── test_metrics.py         # 6 unit tests covering metric edge cases (Cases A..F)
 │   └── integration/
 │       ├── test_ground_truth.py    # Direct evaluation of dataset against SecureCode engine
@@ -117,13 +119,22 @@ securecode-ground-truth/
   ```
 
 ### Running the Test Suite
-To execute the complete benchmark verification harness (8 tests):
+To execute the complete benchmark verification harness (17 tests):
 ```bash
 python -m pytest tests/ -v
 ```
 
 Expected output:
 ```text
+tests/unit/test_metadata.py::test_valid_metadata_creation PASSED
+tests/unit/test_metadata.py::test_metadata_serialization_and_roundtrip PASSED
+tests/unit/test_metadata.py::test_get_product_version_from_installed_package PASSED
+tests/unit/test_metadata.py::test_required_fields_cannot_silently_disappear PASSED
+tests/unit/test_metadata.py::test_nested_metadata_type_integrity PASSED
+tests/unit/test_metadata.py::test_timestamp_validation PASSED
+tests/unit/test_metadata.py::test_dataset_hash_validation PASSED
+tests/unit/test_metadata.py::test_case_count_validation PASSED
+tests/unit/test_metadata.py::test_commit_and_control_validation PASSED
 tests/unit/test_metrics.py::test_metrics_case_a_ground_truth_distribution PASSED
 tests/unit/test_metrics.py::test_metrics_case_b_incorrect_classification PASSED
 tests/unit/test_metrics.py::test_metrics_case_c_unknown_partially_correct PASSED
@@ -133,5 +144,5 @@ tests/unit/test_metrics.py::test_metrics_case_f_zero_denominators PASSED
 tests/integration/test_ground_truth.py::test_gh001_ground_truth_cases PASSED
 tests/integration/test_metrics_ground_truth.py::test_metrics_against_ground_truth PASSED
 
-8 passed in 0.03s
+17 passed in 0.06s
 ```
