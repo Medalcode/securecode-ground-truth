@@ -1,0 +1,802 @@
+[
+  {
+    "repository": "owner/repo_1",
+    "status": "FAIL",
+    "evidence": {
+      "default_branch": "main",
+      "protection_enabled": false
+    }
+  },
+  {
+    "repository": "owner/repo_2",
+    "status": "UNKNOWN",
+    "evidence": {
+      "default_branch": "main",
+      "protection_enabled": null
+    }
+  },
+  {
+    "repository": "owner/repo_3",
+    "status": "UNKNOWN",
+    "evidence": {
+      "default_branch": "main",
+      "protection_enabled": null
+    }
+  },
+  {
+    "repository": "owner/repo_4",
+    "status": "UNKNOWN",
+    "evidence": {
+      "default_branch": "main",
+      "protection_enabled": null
+    }
+  },
+  {
+    "repository": "owner/repo_5",
+    "status": "PASS",
+    "evidence": {
+      "default_branch": "main",
+      "protection_enabled": true
+    }
+  },
+  {
+    "repository": "owner/repo_6",
+    "status": "FAIL",
+    "evidence": {
+      "default_branch": "main",
+      "protection_enabled": false
+    }
+  },
+  {
+    "repository": "owner/repo_7",
+    "status": "PASS",
+    "evidence": {
+      "default_branch": "main",
+      "protection_enabled": true
+    }
+  },
+  {
+    "repository": "owner/repo_8",
+    "status": "UNKNOWN",
+    "evidence": {
+      "default_branch": "main",
+      "protection_enabled": null
+    }
+  },
+  {
+    "repository": "owner/repo_9",
+    "status": "FAIL",
+    "evidence": {
+      "default_branch": "main",
+      "protection_enabled": false
+    }
+  },
+  {
+    "repository": "owner/repo_10",
+    "status": "FAIL",
+    "evidence": {
+      "default_branch": "main",
+      "protection_enabled": false
+    }
+  },
+  {
+    "repository": "owner/repo_11",
+    "status": "UNKNOWN",
+    "evidence": {
+      "default_branch": "main",
+      "protection_enabled": null
+    }
+  },
+  {
+    "repository": "owner/repo_12",
+    "status": "PASS",
+    "evidence": {
+      "default_branch": "main",
+      "protection_enabled": true
+    }
+  },
+  {
+    "repository": "owner/repo_13",
+    "status": "FAIL",
+    "evidence": {
+      "default_branch": "main",
+      "protection_enabled": false
+    }
+  },
+  {
+    "repository": "owner/repo_14",
+    "status": "FAIL",
+    "evidence": {
+      "default_branch": "main",
+      "protection_enabled": false
+    }
+  },
+  {
+    "repository": "owner/repo_15",
+    "status": "FAIL",
+    "evidence": {
+      "default_branch": "main",
+      "protection_enabled": false
+    }
+  },
+  {
+    "repository": "owner/repo_16",
+    "status": "UNKNOWN",
+    "evidence": {
+      "default_branch": "main",
+      "protection_enabled": null
+    }
+  },
+  {
+    "repository": "owner/repo_17",
+    "status": "FAIL",
+    "evidence": {
+      "default_branch": "main",
+      "protection_enabled": false
+    }
+  },
+  {
+    "repository": "owner/repo_18",
+    "status": "UNKNOWN",
+    "evidence": {
+      "default_branch": "main",
+      "protection_enabled": null
+    }
+  },
+  {
+    "repository": "owner/repo_19",
+    "status": "UNKNOWN",
+    "evidence": {
+      "default_branch": "main",
+      "protection_enabled": null
+    }
+  },
+  {
+    "repository": "owner/repo_20",
+    "status": "UNKNOWN",
+    "evidence": {
+      "default_branch": "main",
+      "protection_enabled": null
+    }
+  },
+  {
+    "repository": "owner/repo_21",
+    "status": "FAIL",
+    "evidence": {
+      "default_branch": "main",
+      "protection_enabled": false
+    }
+  },
+  {
+    "repository": "owner/repo_22",
+    "status": "PASS",
+    "evidence": {
+      "default_branch": "main",
+      "protection_enabled": true
+    }
+  },
+  {
+    "repository": "owner/repo_23",
+    "status": "UNKNOWN",
+    "evidence": {
+      "default_branch": "main",
+      "protection_enabled": null
+    }
+  },
+  {
+    "repository": "owner/repo_24",
+    "status": "UNKNOWN",
+    "evidence": {
+      "default_branch": "main",
+      "protection_enabled": null
+    }
+  },
+  {
+    "repository": "owner/repo_25",
+    "status": "PASS",
+    "evidence": {
+      "default_branch": "main",
+      "protection_enabled": true
+    }
+  },
+  {
+    "repository": "owner/repo_26",
+    "status": "FAIL",
+    "evidence": {
+      "default_branch": "main",
+      "protection_enabled": false
+    }
+  },
+  {
+    "repository": "owner/repo_27",
+    "status": "UNKNOWN",
+    "evidence": {
+      "default_branch": "main",
+      "protection_enabled": null
+    }
+  },
+  {
+    "repository": "owner/repo_28",
+    "status": "PASS",
+    "evidence": {
+      "default_branch": "main",
+      "protection_enabled": true
+    }
+  },
+  {
+    "repository": "owner/repo_29",
+    "status": "UNKNOWN",
+    "evidence": {
+      "default_branch": "main",
+      "protection_enabled": null
+    }
+  },
+  {
+    "repository": "owner/repo_30",
+    "status": "PASS",
+    "evidence": {
+      "default_branch": "main",
+      "protection_enabled": true
+    }
+  },
+  {
+    "repository": "owner/repo_31",
+    "status": "PASS",
+    "evidence": {
+      "default_branch": "main",
+      "protection_enabled": true
+    }
+  },
+  {
+    "repository": "owner/repo_32",
+    "status": "FAIL",
+    "evidence": {
+      "default_branch": "main",
+      "protection_enabled": false
+    }
+  },
+  {
+    "repository": "owner/repo_33",
+    "status": "FAIL",
+    "evidence": {
+      "default_branch": "main",
+      "protection_enabled": false
+    }
+  },
+  {
+    "repository": "owner/repo_34",
+    "status": "UNKNOWN",
+    "evidence": {
+      "default_branch": "main",
+      "protection_enabled": null
+    }
+  },
+  {
+    "repository": "owner/repo_35",
+    "status": "PASS",
+    "evidence": {
+      "default_branch": "main",
+      "protection_enabled": true
+    }
+  },
+  {
+    "repository": "owner/repo_36",
+    "status": "FAIL",
+    "evidence": {
+      "default_branch": "main",
+      "protection_enabled": false
+    }
+  },
+  {
+    "repository": "owner/repo_37",
+    "status": "UNKNOWN",
+    "evidence": {
+      "default_branch": "main",
+      "protection_enabled": null
+    }
+  },
+  {
+    "repository": "owner/repo_38",
+    "status": "PASS",
+    "evidence": {
+      "default_branch": "main",
+      "protection_enabled": true
+    }
+  },
+  {
+    "repository": "owner/repo_39",
+    "status": "PASS",
+    "evidence": {
+      "default_branch": "main",
+      "protection_enabled": true
+    }
+  },
+  {
+    "repository": "owner/repo_40",
+    "status": "PASS",
+    "evidence": {
+      "default_branch": "main",
+      "protection_enabled": true
+    }
+  },
+  {
+    "repository": "owner/repo_41",
+    "status": "PASS",
+    "evidence": {
+      "default_branch": "main",
+      "protection_enabled": true
+    }
+  },
+  {
+    "repository": "owner/repo_42",
+    "status": "FAIL",
+    "evidence": {
+      "default_branch": "main",
+      "protection_enabled": false
+    }
+  },
+  {
+    "repository": "owner/repo_43",
+    "status": "UNKNOWN",
+    "evidence": {
+      "default_branch": "main",
+      "protection_enabled": null
+    }
+  },
+  {
+    "repository": "owner/repo_44",
+    "status": "FAIL",
+    "evidence": {
+      "default_branch": "main",
+      "protection_enabled": false
+    }
+  },
+  {
+    "repository": "owner/repo_45",
+    "status": "PASS",
+    "evidence": {
+      "default_branch": "main",
+      "protection_enabled": true
+    }
+  },
+  {
+    "repository": "owner/repo_46",
+    "status": "PASS",
+    "evidence": {
+      "default_branch": "main",
+      "protection_enabled": true
+    }
+  },
+  {
+    "repository": "owner/repo_47",
+    "status": "UNKNOWN",
+    "evidence": {
+      "default_branch": "main",
+      "protection_enabled": null
+    }
+  },
+  {
+    "repository": "owner/repo_48",
+    "status": "FAIL",
+    "evidence": {
+      "default_branch": "main",
+      "protection_enabled": false
+    }
+  },
+  {
+    "repository": "owner/repo_49",
+    "status": "PASS",
+    "evidence": {
+      "default_branch": "main",
+      "protection_enabled": true
+    }
+  },
+  {
+    "repository": "owner/repo_50",
+    "status": "FAIL",
+    "evidence": {
+      "default_branch": "main",
+      "protection_enabled": false
+    }
+  },
+  {
+    "repository": "owner/repo_51",
+    "status": "PASS",
+    "evidence": {
+      "default_branch": "main",
+      "protection_enabled": true
+    }
+  },
+  {
+    "repository": "owner/repo_52",
+    "status": "PASS",
+    "evidence": {
+      "default_branch": "main",
+      "protection_enabled": true
+    }
+  },
+  {
+    "repository": "owner/repo_53",
+    "status": "FAIL",
+    "evidence": {
+      "default_branch": "main",
+      "protection_enabled": false
+    }
+  },
+  {
+    "repository": "owner/repo_54",
+    "status": "FAIL",
+    "evidence": {
+      "default_branch": "main",
+      "protection_enabled": false
+    }
+  },
+  {
+    "repository": "owner/repo_55",
+    "status": "UNKNOWN",
+    "evidence": {
+      "default_branch": "main",
+      "protection_enabled": null
+    }
+  },
+  {
+    "repository": "owner/repo_56",
+    "status": "UNKNOWN",
+    "evidence": {
+      "default_branch": "main",
+      "protection_enabled": null
+    }
+  },
+  {
+    "repository": "owner/repo_57",
+    "status": "FAIL",
+    "evidence": {
+      "default_branch": "main",
+      "protection_enabled": false
+    }
+  },
+  {
+    "repository": "owner/repo_58",
+    "status": "UNKNOWN",
+    "evidence": {
+      "default_branch": "main",
+      "protection_enabled": null
+    }
+  },
+  {
+    "repository": "owner/repo_59",
+    "status": "FAIL",
+    "evidence": {
+      "default_branch": "main",
+      "protection_enabled": false
+    }
+  },
+  {
+    "repository": "owner/repo_60",
+    "status": "PASS",
+    "evidence": {
+      "default_branch": "main",
+      "protection_enabled": true
+    }
+  },
+  {
+    "repository": "owner/repo_61",
+    "status": "PASS",
+    "evidence": {
+      "default_branch": "main",
+      "protection_enabled": true
+    }
+  },
+  {
+    "repository": "owner/repo_62",
+    "status": "PASS",
+    "evidence": {
+      "default_branch": "main",
+      "protection_enabled": true
+    }
+  },
+  {
+    "repository": "owner/repo_63",
+    "status": "PASS",
+    "evidence": {
+      "default_branch": "main",
+      "protection_enabled": true
+    }
+  },
+  {
+    "repository": "owner/repo_64",
+    "status": "FAIL",
+    "evidence": {
+      "default_branch": "main",
+      "protection_enabled": false
+    }
+  },
+  {
+    "repository": "owner/repo_65",
+    "status": "UNKNOWN",
+    "evidence": {
+      "default_branch": "main",
+      "protection_enabled": null
+    }
+  },
+  {
+    "repository": "owner/repo_66",
+    "status": "PASS",
+    "evidence": {
+      "default_branch": "main",
+      "protection_enabled": true
+    }
+  },
+  {
+    "repository": "owner/repo_67",
+    "status": "UNKNOWN",
+    "evidence": {
+      "default_branch": "main",
+      "protection_enabled": null
+    }
+  },
+  {
+    "repository": "owner/repo_68",
+    "status": "FAIL",
+    "evidence": {
+      "default_branch": "main",
+      "protection_enabled": false
+    }
+  },
+  {
+    "repository": "owner/repo_69",
+    "status": "PASS",
+    "evidence": {
+      "default_branch": "main",
+      "protection_enabled": true
+    }
+  },
+  {
+    "repository": "owner/repo_70",
+    "status": "PASS",
+    "evidence": {
+      "default_branch": "main",
+      "protection_enabled": true
+    }
+  },
+  {
+    "repository": "owner/repo_71",
+    "status": "UNKNOWN",
+    "evidence": {
+      "default_branch": "main",
+      "protection_enabled": null
+    }
+  },
+  {
+    "repository": "owner/repo_72",
+    "status": "PASS",
+    "evidence": {
+      "default_branch": "main",
+      "protection_enabled": true
+    }
+  },
+  {
+    "repository": "owner/repo_73",
+    "status": "UNKNOWN",
+    "evidence": {
+      "default_branch": "main",
+      "protection_enabled": null
+    }
+  },
+  {
+    "repository": "owner/repo_74",
+    "status": "FAIL",
+    "evidence": {
+      "default_branch": "main",
+      "protection_enabled": false
+    }
+  },
+  {
+    "repository": "owner/repo_75",
+    "status": "PASS",
+    "evidence": {
+      "default_branch": "main",
+      "protection_enabled": true
+    }
+  },
+  {
+    "repository": "owner/repo_76",
+    "status": "FAIL",
+    "evidence": {
+      "default_branch": "main",
+      "protection_enabled": false
+    }
+  },
+  {
+    "repository": "owner/repo_77",
+    "status": "FAIL",
+    "evidence": {
+      "default_branch": "main",
+      "protection_enabled": false
+    }
+  },
+  {
+    "repository": "owner/repo_78",
+    "status": "UNKNOWN",
+    "evidence": {
+      "default_branch": "main",
+      "protection_enabled": null
+    }
+  },
+  {
+    "repository": "owner/repo_79",
+    "status": "UNKNOWN",
+    "evidence": {
+      "default_branch": "main",
+      "protection_enabled": null
+    }
+  },
+  {
+    "repository": "owner/repo_80",
+    "status": "UNKNOWN",
+    "evidence": {
+      "default_branch": "main",
+      "protection_enabled": null
+    }
+  },
+  {
+    "repository": "owner/repo_81",
+    "status": "PASS",
+    "evidence": {
+      "default_branch": "main",
+      "protection_enabled": true
+    }
+  },
+  {
+    "repository": "owner/repo_82",
+    "status": "UNKNOWN",
+    "evidence": {
+      "default_branch": "main",
+      "protection_enabled": null
+    }
+  },
+  {
+    "repository": "owner/repo_83",
+    "status": "FAIL",
+    "evidence": {
+      "default_branch": "main",
+      "protection_enabled": false
+    }
+  },
+  {
+    "repository": "owner/repo_84",
+    "status": "PASS",
+    "evidence": {
+      "default_branch": "main",
+      "protection_enabled": true
+    }
+  },
+  {
+    "repository": "owner/repo_85",
+    "status": "PASS",
+    "evidence": {
+      "default_branch": "main",
+      "protection_enabled": true
+    }
+  },
+  {
+    "repository": "owner/repo_86",
+    "status": "PASS",
+    "evidence": {
+      "default_branch": "main",
+      "protection_enabled": true
+    }
+  },
+  {
+    "repository": "owner/repo_87",
+    "status": "UNKNOWN",
+    "evidence": {
+      "default_branch": "main",
+      "protection_enabled": null
+    }
+  },
+  {
+    "repository": "owner/repo_88",
+    "status": "PASS",
+    "evidence": {
+      "default_branch": "main",
+      "protection_enabled": true
+    }
+  },
+  {
+    "repository": "owner/repo_89",
+    "status": "FAIL",
+    "evidence": {
+      "default_branch": "main",
+      "protection_enabled": false
+    }
+  },
+  {
+    "repository": "owner/repo_90",
+    "status": "PASS",
+    "evidence": {
+      "default_branch": "main",
+      "protection_enabled": true
+    }
+  },
+  {
+    "repository": "owner/repo_91",
+    "status": "FAIL",
+    "evidence": {
+      "default_branch": "main",
+      "protection_enabled": false
+    }
+  },
+  {
+    "repository": "owner/repo_92",
+    "status": "FAIL",
+    "evidence": {
+      "default_branch": "main",
+      "protection_enabled": false
+    }
+  },
+  {
+    "repository": "owner/repo_93",
+    "status": "FAIL",
+    "evidence": {
+      "default_branch": "main",
+      "protection_enabled": false
+    }
+  },
+  {
+    "repository": "owner/repo_94",
+    "status": "PASS",
+    "evidence": {
+      "default_branch": "main",
+      "protection_enabled": true
+    }
+  },
+  {
+    "repository": "owner/repo_95",
+    "status": "FAIL",
+    "evidence": {
+      "default_branch": "main",
+      "protection_enabled": false
+    }
+  },
+  {
+    "repository": "owner/repo_96",
+    "status": "UNKNOWN",
+    "evidence": {
+      "default_branch": "main",
+      "protection_enabled": null
+    }
+  },
+  {
+    "repository": "owner/repo_97",
+    "status": "FAIL",
+    "evidence": {
+      "default_branch": "main",
+      "protection_enabled": false
+    }
+  },
+  {
+    "repository": "owner/repo_98",
+    "status": "UNKNOWN",
+    "evidence": {
+      "default_branch": "main",
+      "protection_enabled": null
+    }
+  },
+  {
+    "repository": "owner/repo_99",
+    "status": "UNKNOWN",
+    "evidence": {
+      "default_branch": "main",
+      "protection_enabled": null
+    }
+  },
+  {
+    "repository": "owner/repo_100",
+    "status": "UNKNOWN",
+    "evidence": {
+      "default_branch": "main",
+      "protection_enabled": null
+    }
+  }
+]
