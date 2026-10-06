@@ -1,0 +1,46 @@
+name: Ground Truth Validation & Benchmark CI
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  validate:
+    name: Validate Datasets & Execute Benchmark
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out Ground Truth Repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Check out SecureCode (Pinned Reference Commit)
+        uses: actions/checkout@v4
+        with:
+          repository: Medalcode/SecureCode
+          ref: bbc9c2747373ef31a3e9ba3589ae192842d2fd52
+          path: SecureCode
+
+      - name: Install SecureCode Package
+        run: |
+          pip install --upgrade pip
+          pip install pytest
+          pip install -e ./SecureCode
+
+      - name: Run Ground Truth Verification & Mutation Suite
+        run: |
+          python -m pytest tests/ -v
+
+      - name: Execute Benchmark Harness
+        run: |
+          python benchmark/run_benchmark.py
+
+      - name: Verify Generated Validation Artifacts
+        run: |
+          test -f artifacts/ground_truth_validation.json
+          test -f artifacts/ground_truth_validation.md

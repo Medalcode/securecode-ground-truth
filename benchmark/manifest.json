@@ -1,0 +1,45 @@
+{
+  "benchmark_version": "1.0.0",
+  "schema_version": "1.0",
+  "created_at_utc": "2026-10-06T00:25:00Z",
+  "ground_truth_commit": "f006fb843f13fa09fa4ae39d6c2b0570385b7c1e",
+  "controls": {
+    "GH-001": {
+      "control_id": "GH-001",
+      "synthetic_benchmark": {
+        "dataset_path": "data/ground_truth/gh001_benchmark_105.json",
+        "dataset_version": "1.0",
+        "case_count": 105,
+        "file_sha256": "43cf10a45e98e33696d4bb7c32e40c2b77e8139f013ff9e08ddfbfd2fd4a6700",
+        "canonical_sha256": "9fda9475134c53244c9af0d6ccdfeb9b6cafa6caa98728750b28803085338464"
+      },
+      "empirical_pilot": {
+        "dataset_path": "data/ground_truth/gh001_ground_truth.json",
+        "dataset_version": "1.0",
+        "case_count": 6,
+        "file_sha256": "7418f0da8b8f55da1123068756650434b0ec03e20d575fba1c01e6663656832b",
+        "canonical_sha256": "d560a93cfe2e4c31f0177853f99b044d2f81190e52b6521c5ef07357e671c045"
+      }
+    },
+    "GH-002": {
+      "control_id": "GH-002",
+      "synthetic_benchmark": {
+        "dataset_path": "data/ground_truth/gh002_ground_truth.json",
+        "dataset_version": "1.0",
+        "case_count": 100,
+        "file_sha256": "bf948b31109de496271378de29e9199cb2154643d5dffc60a98e08f29754628c",
+        "canonical_sha256": "8f0bd5554014f37c0206acdc1b92e53aa5bcac601265ab3dc6e92428910c6a99"
+      },
+      "empirical_pilot": {
+        "status": "BLOCKED",
+        "blocker_reason": "GitHub API requires GITHUB_TOKEN authentication on /branches/{default_branch}/protection endpoint",
+        "case_count": 0
+      }
+    }
+  },
+  "summary": {
+    "total_synthetic_cases": 205,
+    "total_empirical_cases": 6,
+    "total_cases_all": 211
+  }
+}

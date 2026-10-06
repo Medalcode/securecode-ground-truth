@@ -1,0 +1,449 @@
+{
+  "validation_type": "securecode_ground_truth_benchmark",
+  "benchmark_version": "1.0.0",
+  "timestamp_utc": "2026-10-06T03:28:41.788038+00:00",
+  "product": {
+    "name": "securecode",
+    "version": "0.1.0",
+    "commit": "bbc9c2747373ef31a3e9ba3589ae192842d2fd52"
+  },
+  "ground_truth": {
+    "version": "1.0.0",
+    "commit": "f006fb843f13fa09fa4ae39d6c2b0570385b7c1e"
+  },
+  "controls": {
+    "GH-001": {
+      "control_id": "GH-001",
+      "synthetic_benchmark": {
+        "dataset_path": "data/ground_truth/gh001_benchmark_105.json",
+        "dataset_version": "1.0",
+        "dataset_file_sha256": "43cf10a45e98e33696d4bb7c32e40c2b77e8139f013ff9e08ddfbfd2fd4a6700",
+        "cases": 105,
+        "matched": 105,
+        "mismatched": 0,
+        "metrics": {
+          "total_cases": 105,
+          "matched_cases": 105,
+          "mismatched_cases": 0,
+          "overall_accuracy": 1.0,
+          "confusion_matrix_3x3": {
+            "PASS": {
+              "PASS": 35,
+              "FAIL": 0,
+              "UNKNOWN": 0
+            },
+            "FAIL": {
+              "PASS": 0,
+              "FAIL": 35,
+              "UNKNOWN": 0
+            },
+            "UNKNOWN": {
+              "PASS": 0,
+              "FAIL": 0,
+              "UNKNOWN": 35
+            }
+          },
+          "per_class_metrics": {
+            "PASS": {
+              "support": 35,
+              "correct": 35,
+              "incorrect": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0
+            },
+            "FAIL": {
+              "support": 35,
+              "correct": 35,
+              "incorrect": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0
+            },
+            "UNKNOWN": {
+              "support": 35,
+              "correct": 35,
+              "incorrect": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0
+            }
+          },
+          "binary_metrics": {
+            "true_positive": 35,
+            "true_negative": 35,
+            "false_positive": 0,
+            "false_negative": 0,
+            "unknown_correct": 35,
+            "accuracy": 1.0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "unknown_accuracy": 1.0
+          },
+          "unknown_accuracy": 1.0
+        },
+        "coverage": {
+          "total_cases": 105,
+          "status_distribution": {
+            "FAIL": 35,
+            "PASS": 35,
+            "UNKNOWN": 35
+          },
+          "approval_partitions": {
+            "below threshold (<2)": 30,
+            "above threshold (>2)": 33,
+            "at threshold (=2)": 22,
+            "missing (None)": 20
+          },
+          "dismiss_partitions": {
+            "false": 24,
+            "true": 61,
+            "missing (None)": 20
+          },
+          "scenario_families": {
+            "FAIL - multiple violations": 5,
+            "FAIL - approvals=0, dismiss=true": 10,
+            "PASS - approvals>2, dismiss=true": 20,
+            "PASS - approvals=2, dismiss=true": 15,
+            "UNKNOWN - missing dismiss_stale": 15,
+            "FAIL - approvals>=2, dismiss=false": 10,
+            "UNKNOWN - missing approvals": 15,
+            "FAIL - approvals=1, dismiss=true": 10,
+            "UNKNOWN - missing both": 5
+          }
+        },
+        "duplicates": {
+          "total_cases": 105,
+          "unique_evidence_configurations": 22,
+          "duplicate_evidence_cases": 83,
+          "configuration_frequencies": {
+            "(1, False)": 3,
+            "(0, True)": 10,
+            "(3, True)": 7,
+            "(2, True)": 15,
+            "(6, None)": 2,
+            "(5, False)": 2,
+            "(None, False)": 9,
+            "(None, True)": 6,
+            "(0, False)": 2,
+            "(1, True)": 10,
+            "(2, False)": 5,
+            "(6, True)": 6,
+            "(4, False)": 3,
+            "(4, True)": 5,
+            "(None, None)": 5,
+            "(2, None)": 2,
+            "(5, True)": 2,
+            "(0, None)": 1,
+            "(1, None)": 4,
+            "(5, None)": 4,
+            "(4, None)": 1,
+            "(3, None)": 1
+          }
+        }
+      },
+      "empirical_pilot": {
+        "dataset_path": "data/ground_truth/gh001_ground_truth.json",
+        "dataset_version": "1.0",
+        "dataset_file_sha256": "7418f0da8b8f55da1123068756650434b0ec03e20d575fba1c01e6663656832b",
+        "cases": 6,
+        "matched": 6,
+        "mismatched": 0,
+        "metrics": {
+          "total_cases": 6,
+          "matched_cases": 6,
+          "mismatched_cases": 0,
+          "overall_accuracy": 1.0,
+          "confusion_matrix_3x3": {
+            "PASS": {
+              "PASS": 1,
+              "FAIL": 0,
+              "UNKNOWN": 0
+            },
+            "FAIL": {
+              "PASS": 0,
+              "FAIL": 3,
+              "UNKNOWN": 0
+            },
+            "UNKNOWN": {
+              "PASS": 0,
+              "FAIL": 0,
+              "UNKNOWN": 2
+            }
+          },
+          "per_class_metrics": {
+            "PASS": {
+              "support": 1,
+              "correct": 1,
+              "incorrect": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0
+            },
+            "FAIL": {
+              "support": 3,
+              "correct": 3,
+              "incorrect": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0
+            },
+            "UNKNOWN": {
+              "support": 2,
+              "correct": 2,
+              "incorrect": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0
+            }
+          },
+          "binary_metrics": {
+            "true_positive": 3,
+            "true_negative": 1,
+            "false_positive": 0,
+            "false_negative": 0,
+            "unknown_correct": 2,
+            "accuracy": 1.0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "unknown_accuracy": 1.0
+          },
+          "unknown_accuracy": 1.0
+        },
+        "classification": "REAL-GITHUB VALIDATED PILOT"
+      }
+    },
+    "GH-002": {
+      "control_id": "GH-002",
+      "synthetic_benchmark": {
+        "dataset_path": "data/ground_truth/gh002_ground_truth.json",
+        "dataset_version": "1.0",
+        "dataset_file_sha256": "bf948b31109de496271378de29e9199cb2154643d5dffc60a98e08f29754628c",
+        "cases": 100,
+        "matched": 100,
+        "mismatched": 0,
+        "metrics": {
+          "total_cases": 100,
+          "matched_cases": 100,
+          "mismatched_cases": 0,
+          "overall_accuracy": 1.0,
+          "confusion_matrix_3x3": {
+            "PASS": {
+              "PASS": 34,
+              "FAIL": 0,
+              "UNKNOWN": 0
+            },
+            "FAIL": {
+              "PASS": 0,
+              "FAIL": 33,
+              "UNKNOWN": 0
+            },
+            "UNKNOWN": {
+              "PASS": 0,
+              "FAIL": 0,
+              "UNKNOWN": 33
+            }
+          },
+          "per_class_metrics": {
+            "PASS": {
+              "support": 34,
+              "correct": 34,
+              "incorrect": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0
+            },
+            "FAIL": {
+              "support": 33,
+              "correct": 33,
+              "incorrect": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0
+            },
+            "UNKNOWN": {
+              "support": 33,
+              "correct": 33,
+              "incorrect": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0
+            }
+          },
+          "binary_metrics": {
+            "true_positive": 33,
+            "true_negative": 34,
+            "false_positive": 0,
+            "false_negative": 0,
+            "unknown_correct": 33,
+            "accuracy": 1.0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "unknown_accuracy": 1.0
+          },
+          "unknown_accuracy": 1.0
+        },
+        "coverage": {
+          "total_cases": 100,
+          "status_distribution": {
+            "FAIL": 33,
+            "UNKNOWN": 33,
+            "PASS": 34
+          },
+          "protection_partitions": {
+            "unprotected (False)": 33,
+            "missing / unknown (None)": 33,
+            "protected (True)": 34
+          }
+        },
+        "duplicates": {
+          "total_cases": 100,
+          "unique_evidence_configurations": 3,
+          "duplicate_evidence_cases": 97,
+          "configuration_frequencies": {
+            "('main', False)": 33,
+            "('main', None)": 33,
+            "('main', True)": 34
+          }
+        }
+      },
+      "empirical_pilot": {
+        "status": "BLOCKED",
+        "blocker_reason": "GitHub API /branches/{default_branch}/protection requires token authentication",
+        "cases": 0,
+        "classification": "REAL-GITHUB PILOT BLOCKED"
+      }
+    }
+  },
+  "combined_synthetic": {
+    "total_cases": 205,
+    "matched": 205,
+    "mismatched": 0,
+    "overall_accuracy": 1.0,
+    "metrics": {
+      "total_cases": 205,
+      "matched_cases": 205,
+      "mismatched_cases": 0,
+      "overall_accuracy": 1.0,
+      "confusion_matrix_3x3": {
+        "PASS": {
+          "PASS": 69,
+          "FAIL": 0,
+          "UNKNOWN": 0
+        },
+        "FAIL": {
+          "PASS": 0,
+          "FAIL": 68,
+          "UNKNOWN": 0
+        },
+        "UNKNOWN": {
+          "PASS": 0,
+          "FAIL": 0,
+          "UNKNOWN": 68
+        }
+      },
+      "per_class_metrics": {
+        "PASS": {
+          "support": 69,
+          "correct": 69,
+          "incorrect": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "FAIL": {
+          "support": 68,
+          "correct": 68,
+          "incorrect": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "UNKNOWN": {
+          "support": 68,
+          "correct": 68,
+          "incorrect": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        }
+      },
+      "binary_metrics": {
+        "true_positive": 68,
+        "true_negative": 69,
+        "false_positive": 0,
+        "false_negative": 0,
+        "unknown_correct": 68,
+        "accuracy": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "unknown_accuracy": 1.0
+      },
+      "unknown_accuracy": 1.0
+    }
+  },
+  "confusion_matrix_3x3": {
+    "PASS": {
+      "PASS": 69,
+      "FAIL": 0,
+      "UNKNOWN": 0
+    },
+    "FAIL": {
+      "PASS": 0,
+      "FAIL": 68,
+      "UNKNOWN": 0
+    },
+    "UNKNOWN": {
+      "PASS": 0,
+      "FAIL": 0,
+      "UNKNOWN": 68
+    }
+  },
+  "mutation_sensitivity": {
+    "mutants_evaluated": 4,
+    "mutants_detected": 4,
+    "mutation_score": 1.0,
+    "details": [
+      {
+        "mutation": "GH-001 Threshold Raised (2 -> 3)",
+        "control": "GH-001",
+        "cases_evaluated": 105,
+        "mismatches_detected": 15,
+        "detection_rate": 0.14285714285714285,
+        "detected": true
+      },
+      {
+        "mutation": "GH-001 Ignore Dismiss Stale Reviews",
+        "control": "GH-001",
+        "cases_evaluated": 105,
+        "mismatches_detected": 25,
+        "detection_rate": 0.23809523809523808,
+        "detected": true
+      },
+      {
+        "mutation": "GH-002 Inverted Protection Logic",
+        "control": "GH-002",
+        "cases_evaluated": 100,
+        "mismatches_detected": 67,
+        "detection_rate": 0.67,
+        "detected": true
+      },
+      {
+        "mutation": "GH-002 UNKNOWN Treated as PASS",
+        "control": "GH-002",
+        "cases_evaluated": 100,
+        "mismatches_detected": 33,
+        "detection_rate": 0.33,
+        "detected": true
+      }
+    ]
+  },
+  "mismatches": {
+    "GH-001": [],
+    "GH-002": []
+  }
+}

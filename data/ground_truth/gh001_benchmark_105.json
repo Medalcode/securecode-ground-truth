@@ -13,7 +13,11 @@
         "dismiss_stale_reviews": false
       },
       "expected_status": "FAIL",
-      "rationale": "Generated via independent Ground Truth oracle specification."
+      "rationale": "Generated via independent Ground Truth oracle specification.",
+      "control_id": "GH-001",
+      "dataset_version": "1.0",
+      "case_type": "synthetic",
+      "provenance": "independent-oracle"
     },
     {
       "case_id": "GT-GH001-BENCH-043",
@@ -25,7 +29,11 @@
         "dismiss_stale_reviews": true
       },
       "expected_status": "FAIL",
-      "rationale": "Generated via independent Ground Truth oracle specification."
+      "rationale": "Generated via independent Ground Truth oracle specification.",
+      "control_id": "GH-001",
+      "dataset_version": "1.0",
+      "case_type": "synthetic",
+      "provenance": "independent-oracle"
     },
     {
       "case_id": "GT-GH001-BENCH-016",
@@ -37,7 +45,11 @@
         "dismiss_stale_reviews": true
       },
       "expected_status": "PASS",
-      "rationale": "Generated via independent Ground Truth oracle specification."
+      "rationale": "Generated via independent Ground Truth oracle specification.",
+      "control_id": "GH-001",
+      "dataset_version": "1.0",
+      "case_type": "synthetic",
+      "provenance": "independent-oracle"
     },
     {
       "case_id": "GT-GH001-BENCH-010",
@@ -49,7 +61,11 @@
         "dismiss_stale_reviews": true
       },
       "expected_status": "PASS",
-      "rationale": "Generated via independent Ground Truth oracle specification."
+      "rationale": "Generated via independent Ground Truth oracle specification.",
+      "control_id": "GH-001",
+      "dataset_version": "1.0",
+      "case_type": "synthetic",
+      "provenance": "independent-oracle"
     },
     {
       "case_id": "GT-GH001-BENCH-100",
@@ -61,7 +77,11 @@
         "dismiss_stale_reviews": null
       },
       "expected_status": "UNKNOWN",
-      "rationale": "Generated via independent Ground Truth oracle specification."
+      "rationale": "Generated via independent Ground Truth oracle specification.",
+      "control_id": "GH-001",
+      "dataset_version": "1.0",
+      "case_type": "synthetic",
+      "provenance": "independent-oracle"
     },
     {
       "case_id": "GT-GH001-BENCH-059",
@@ -73,7 +93,11 @@
         "dismiss_stale_reviews": false
       },
       "expected_status": "FAIL",
-      "rationale": "Generated via independent Ground Truth oracle specification."
+      "rationale": "Generated via independent Ground Truth oracle specification.",
+      "control_id": "GH-001",
+      "dataset_version": "1.0",
+      "case_type": "synthetic",
+      "provenance": "independent-oracle"
     },
     {
       "case_id": "GT-GH001-BENCH-002",
@@ -85,7 +109,11 @@
         "dismiss_stale_reviews": true
       },
       "expected_status": "PASS",
-      "rationale": "Generated via independent Ground Truth oracle specification."
+      "rationale": "Generated via independent Ground Truth oracle specification.",
+      "control_id": "GH-001",
+      "dataset_version": "1.0",
+      "case_type": "synthetic",
+      "provenance": "independent-oracle"
     },
     {
       "case_id": "GT-GH001-BENCH-074",
@@ -97,7 +125,11 @@
         "dismiss_stale_reviews": false
       },
       "expected_status": "UNKNOWN",
-      "rationale": "Generated via independent Ground Truth oracle specification."
+      "rationale": "Generated via independent Ground Truth oracle specification.",
+      "control_id": "GH-001",
+      "dataset_version": "1.0",
+      "case_type": "synthetic",
+      "provenance": "independent-oracle"
     },
     {
       "case_id": "GT-GH001-BENCH-077",
@@ -109,7 +141,11 @@
         "dismiss_stale_reviews": true
       },
       "expected_status": "UNKNOWN",
-      "rationale": "Generated via independent Ground Truth oracle specification."
+      "rationale": "Generated via independent Ground Truth oracle specification.",
+      "control_id": "GH-001",
+      "dataset_version": "1.0",
+      "case_type": "synthetic",
+      "provenance": "independent-oracle"
     },
     {
       "case_id": "GT-GH001-BENCH-083",
@@ -121,7 +157,11 @@
         "dismiss_stale_reviews": false
       },
       "expected_status": "UNKNOWN",
-      "rationale": "Generated via independent Ground Truth oracle specification."
+      "rationale": "Generated via independent Ground Truth oracle specification.",
+      "control_id": "GH-001",
+      "dataset_version": "1.0",
+      "case_type": "synthetic",
+      "provenance": "independent-oracle"
     },
     {
       "case_id": "GT-GH001-BENCH-081",
@@ -133,7 +173,11 @@
         "dismiss_stale_reviews": false
       },
       "expected_status": "UNKNOWN",
-      "rationale": "Generated via independent Ground Truth oracle specification."
+      "rationale": "Generated via independent Ground Truth oracle specification.",
+      "control_id": "GH-001",
+      "dataset_version": "1.0",
+      "case_type": "synthetic",
+      "provenance": "independent-oracle"
     },
     {
       "case_id": "GT-GH001-BENCH-084",
@@ -145,7 +189,11 @@
         "dismiss_stale_reviews": true
       },
       "expected_status": "UNKNOWN",
-      "rationale": "Generated via independent Ground Truth oracle specification."
+      "rationale": "Generated via independent Ground Truth oracle specification.",
+      "control_id": "GH-001",
+      "dataset_version": "1.0",
+      "case_type": "synthetic",
+      "provenance": "independent-oracle"
     },
     {
       "case_id": "GT-GH001-BENCH-011",
@@ -157,7 +205,11 @@
         "dismiss_stale_reviews": true
       },
       "expected_status": "PASS",
-      "rationale": "Generated via independent Ground Truth oracle specification."
+      "rationale": "Generated via independent Ground Truth oracle specification.",
+      "control_id": "GH-001",
+      "dataset_version": "1.0",
+      "case_type": "synthetic",
+      "provenance": "independent-oracle"
     },
     {
       "case_id": "GT-GH001-BENCH-042",
@@ -169,7 +221,11 @@
         "dismiss_stale_reviews": true
       },
       "expected_status": "FAIL",
-      "rationale": "Generated via independent Ground Truth oracle specification."
+      "rationale": "Generated via independent Ground Truth oracle specification.",
+      "control_id": "GH-001",
+      "dataset_version": "1.0",
+      "case_type": "synthetic",
+      "provenance": "independent-oracle"
     },
     {
       "case_id": "GT-GH001-BENCH-068",
@@ -181,7 +237,11 @@
         "dismiss_stale_reviews": false
       },
       "expected_status": "FAIL",
-      "rationale": "Generated via independent Ground Truth oracle specification."
+      "rationale": "Generated via independent Ground Truth oracle specification.",
+      "control_id": "GH-001",
+      "dataset_version": "1.0",
+      "case_type": "synthetic",
+      "provenance": "independent-oracle"
     },
     {
       "case_id": "GT-GH001-BENCH-067",
@@ -193,7 +253,11 @@
         "dismiss_stale_reviews": false
       },
       "expected_status": "FAIL",
-      "rationale": "Generated via independent Ground Truth oracle specification."
+      "rationale": "Generated via independent Ground Truth oracle specification.",
+      "control_id": "GH-001",
+      "dataset_version": "1.0",
+      "case_type": "synthetic",
+      "provenance": "independent-oracle"
     },
     {
       "case_id": "GT-GH001-BENCH-053",
@@ -205,7 +269,11 @@
         "dismiss_stale_reviews": true
       },
       "expected_status": "FAIL",
-      "rationale": "Generated via independent Ground Truth oracle specification."
+      "rationale": "Generated via independent Ground Truth oracle specification.",
+      "control_id": "GH-001",
+      "dataset_version": "1.0",
+      "case_type": "synthetic",
+      "provenance": "independent-oracle"
     },
     {
       "case_id": "GT-GH001-BENCH-057",
@@ -217,7 +285,11 @@
         "dismiss_stale_reviews": false
       },
       "expected_status": "FAIL",
-      "rationale": "Generated via independent Ground Truth oracle specification."
+      "rationale": "Generated via independent Ground Truth oracle specification.",
+      "control_id": "GH-001",
+      "dataset_version": "1.0",
+      "case_type": "synthetic",
+      "provenance": "independent-oracle"
     },
     {
       "case_id": "GT-GH001-BENCH-034",
@@ -229,7 +301,11 @@
         "dismiss_stale_reviews": true
       },
       "expected_status": "PASS",
-      "rationale": "Generated via independent Ground Truth oracle specification."
+      "rationale": "Generated via independent Ground Truth oracle specification.",
+      "control_id": "GH-001",
+      "dataset_version": "1.0",
+      "case_type": "synthetic",
+      "provenance": "independent-oracle"
     },
     {
       "case_id": "GT-GH001-BENCH-031",
@@ -241,7 +317,11 @@
         "dismiss_stale_reviews": true
       },
       "expected_status": "PASS",
-      "rationale": "Generated via independent Ground Truth oracle specification."
+      "rationale": "Generated via independent Ground Truth oracle specification.",
+      "control_id": "GH-001",
+      "dataset_version": "1.0",
+      "case_type": "synthetic",
+      "provenance": "independent-oracle"
     },
     {
       "case_id": "GT-GH001-BENCH-069",
@@ -253,7 +333,11 @@
         "dismiss_stale_reviews": false
       },
       "expected_status": "FAIL",
-      "rationale": "Generated via independent Ground Truth oracle specification."
+      "rationale": "Generated via independent Ground Truth oracle specification.",
+      "control_id": "GH-001",
+      "dataset_version": "1.0",
+      "case_type": "synthetic",
+      "provenance": "independent-oracle"
     },
     {
       "case_id": "GT-GH001-BENCH-061",
@@ -265,7 +349,11 @@
         "dismiss_stale_reviews": false
       },
       "expected_status": "FAIL",
-      "rationale": "Generated via independent Ground Truth oracle specification."
+      "rationale": "Generated via independent Ground Truth oracle specification.",
+      "control_id": "GH-001",
+      "dataset_version": "1.0",
+      "case_type": "synthetic",
+      "provenance": "independent-oracle"
     },
     {
       "case_id": "GT-GH001-BENCH-073",
@@ -277,7 +365,11 @@
         "dismiss_stale_reviews": false
       },
       "expected_status": "UNKNOWN",
-      "rationale": "Generated via independent Ground Truth oracle specification."
+      "rationale": "Generated via independent Ground Truth oracle specification.",
+      "control_id": "GH-001",
+      "dataset_version": "1.0",
+      "case_type": "synthetic",
+      "provenance": "independent-oracle"
     },
     {
       "case_id": "GT-GH001-BENCH-027",
@@ -289,7 +381,11 @@
         "dismiss_stale_reviews": true
       },
       "expected_status": "PASS",
-      "rationale": "Generated via independent Ground Truth oracle specification."
+      "rationale": "Generated via independent Ground Truth oracle specification.",
+      "control_id": "GH-001",
+      "dataset_version": "1.0",
+      "case_type": "synthetic",
+      "provenance": "independent-oracle"
     },
     {
       "case_id": "GT-GH001-BENCH-060",
@@ -301,7 +397,11 @@
         "dismiss_stale_reviews": false
       },
       "expected_status": "FAIL",
-      "rationale": "Generated via independent Ground Truth oracle specification."
+      "rationale": "Generated via independent Ground Truth oracle specification.",
+      "control_id": "GH-001",
+      "dataset_version": "1.0",
+      "case_type": "synthetic",
+      "provenance": "independent-oracle"
     },
     {
       "case_id": "GT-GH001-BENCH-009",
@@ -313,7 +413,11 @@
         "dismiss_stale_reviews": true
       },
       "expected_status": "PASS",
-      "rationale": "Generated via independent Ground Truth oracle specification."
+      "rationale": "Generated via independent Ground Truth oracle specification.",
+      "control_id": "GH-001",
+      "dataset_version": "1.0",
+      "case_type": "synthetic",
+      "provenance": "independent-oracle"
     },
     {
       "case_id": "GT-GH001-BENCH-022",
@@ -325,7 +429,11 @@
         "dismiss_stale_reviews": true
       },
       "expected_status": "PASS",
-      "rationale": "Generated via independent Ground Truth oracle specification."
+      "rationale": "Generated via independent Ground Truth oracle specification.",
+      "control_id": "GH-001",
+      "dataset_version": "1.0",
+      "case_type": "synthetic",
+      "provenance": "independent-oracle"
     },
     {
       "case_id": "GT-GH001-BENCH-064",
@@ -337,7 +445,11 @@
         "dismiss_stale_reviews": false
       },
       "expected_status": "FAIL",
-      "rationale": "Generated via independent Ground Truth oracle specification."
+      "rationale": "Generated via independent Ground Truth oracle specification.",
+      "control_id": "GH-001",
+      "dataset_version": "1.0",
+      "case_type": "synthetic",
+      "provenance": "independent-oracle"
     },
     {
       "case_id": "GT-GH001-BENCH-033",
@@ -349,7 +461,11 @@
         "dismiss_stale_reviews": true
       },
       "expected_status": "PASS",
-      "rationale": "Generated via independent Ground Truth oracle specification."
+      "rationale": "Generated via independent Ground Truth oracle specification.",
+      "control_id": "GH-001",
+      "dataset_version": "1.0",
+      "case_type": "synthetic",
+      "provenance": "independent-oracle"
     },
     {
       "case_id": "GT-GH001-BENCH-085",
@@ -361,7 +477,11 @@
         "dismiss_stale_reviews": false
       },
       "expected_status": "UNKNOWN",
-      "rationale": "Generated via independent Ground Truth oracle specification."
+      "rationale": "Generated via independent Ground Truth oracle specification.",
+      "control_id": "GH-001",
+      "dataset_version": "1.0",
+      "case_type": "synthetic",
+      "provenance": "independent-oracle"
     },
     {
       "case_id": "GT-GH001-BENCH-038",
@@ -373,7 +493,11 @@
         "dismiss_stale_reviews": true
       },
       "expected_status": "FAIL",
-      "rationale": "Generated via independent Ground Truth oracle specification."
+      "rationale": "Generated via independent Ground Truth oracle specification.",
+      "control_id": "GH-001",
+      "dataset_version": "1.0",
+      "case_type": "synthetic",
+      "provenance": "independent-oracle"
     },
     {
       "case_id": "GT-GH001-BENCH-045",
@@ -385,7 +509,11 @@
         "dismiss_stale_reviews": true
       },
       "expected_status": "FAIL",
-      "rationale": "Generated via independent Ground Truth oracle specification."
+      "rationale": "Generated via independent Ground Truth oracle specification.",
+      "control_id": "GH-001",
+      "dataset_version": "1.0",
+      "case_type": "synthetic",
+      "provenance": "independent-oracle"
     },
     {
       "case_id": "GT-GH001-BENCH-079",
@@ -397,7 +525,11 @@
         "dismiss_stale_reviews": false
       },
       "expected_status": "UNKNOWN",
-      "rationale": "Generated via independent Ground Truth oracle specification."
+      "rationale": "Generated via independent Ground Truth oracle specification.",
+      "control_id": "GH-001",
+      "dataset_version": "1.0",
+      "case_type": "synthetic",
+      "provenance": "independent-oracle"
     },
     {
       "case_id": "GT-GH001-BENCH-098",
@@ -409,7 +541,11 @@
         "dismiss_stale_reviews": null
       },
       "expected_status": "UNKNOWN",
-      "rationale": "Generated via independent Ground Truth oracle specification."
+      "rationale": "Generated via independent Ground Truth oracle specification.",
+      "control_id": "GH-001",
+      "dataset_version": "1.0",
+      "case_type": "synthetic",
+      "provenance": "independent-oracle"
     },
     {
       "case_id": "GT-GH001-BENCH-051",
@@ -421,7 +557,11 @@
         "dismiss_stale_reviews": true
       },
       "expected_status": "FAIL",
-      "rationale": "Generated via independent Ground Truth oracle specification."
+      "rationale": "Generated via independent Ground Truth oracle specification.",
+      "control_id": "GH-001",
+      "dataset_version": "1.0",
+      "case_type": "synthetic",
+      "provenance": "independent-oracle"
     },
     {
       "case_id": "GT-GH001-BENCH-063",
@@ -433,7 +573,11 @@
         "dismiss_stale_reviews": false
       },
       "expected_status": "FAIL",
-      "rationale": "Generated via independent Ground Truth oracle specification."
+      "rationale": "Generated via independent Ground Truth oracle specification.",
+      "control_id": "GH-001",
+      "dataset_version": "1.0",
+      "case_type": "synthetic",
+      "provenance": "independent-oracle"
     },
     {
       "case_id": "GT-GH001-BENCH-046",
@@ -445,7 +589,11 @@
         "dismiss_stale_reviews": true
       },
       "expected_status": "FAIL",
-      "rationale": "Generated via independent Ground Truth oracle specification."
+      "rationale": "Generated via independent Ground Truth oracle specification.",
+      "control_id": "GH-001",
+      "dataset_version": "1.0",
+      "case_type": "synthetic",
+      "provenance": "independent-oracle"
     },
     {
       "case_id": "GT-GH001-BENCH-050",
@@ -457,7 +605,11 @@
         "dismiss_stale_reviews": true
       },
       "expected_status": "FAIL",
-      "rationale": "Generated via independent Ground Truth oracle specification."
+      "rationale": "Generated via independent Ground Truth oracle specification.",
+      "control_id": "GH-001",
+      "dataset_version": "1.0",
+      "case_type": "synthetic",
+      "provenance": "independent-oracle"
     },
     {
       "case_id": "GT-GH001-BENCH-048",
@@ -469,7 +621,11 @@
         "dismiss_stale_reviews": true
       },
       "expected_status": "FAIL",
-      "rationale": "Generated via independent Ground Truth oracle specification."
+      "rationale": "Generated via independent Ground Truth oracle specification.",
+      "control_id": "GH-001",
+      "dataset_version": "1.0",
+      "case_type": "synthetic",
+      "provenance": "independent-oracle"
     },
     {
       "case_id": "GT-GH001-BENCH-104",
@@ -481,7 +637,11 @@
         "dismiss_stale_reviews": null
       },
       "expected_status": "UNKNOWN",
-      "rationale": "Generated via independent Ground Truth oracle specification."
+      "rationale": "Generated via independent Ground Truth oracle specification.",
+      "control_id": "GH-001",
+      "dataset_version": "1.0",
+      "case_type": "synthetic",
+      "provenance": "independent-oracle"
     },
     {
       "case_id": "GT-GH001-BENCH-056",
@@ -493,7 +653,11 @@
         "dismiss_stale_reviews": false
       },
       "expected_status": "FAIL",
-      "rationale": "Generated via independent Ground Truth oracle specification."
+      "rationale": "Generated via independent Ground Truth oracle specification.",
+      "control_id": "GH-001",
+      "dataset_version": "1.0",
+      "case_type": "synthetic",
+      "provenance": "independent-oracle"
     },
     {
       "case_id": "GT-GH001-BENCH-090",
@@ -505,7 +669,11 @@
         "dismiss_stale_reviews": null
       },
       "expected_status": "UNKNOWN",
-      "rationale": "Generated via independent Ground Truth oracle specification."
+      "rationale": "Generated via independent Ground Truth oracle specification.",
+      "control_id": "GH-001",
+      "dataset_version": "1.0",
+      "case_type": "synthetic",
+      "provenance": "independent-oracle"
     },
     {
       "case_id": "GT-GH001-BENCH-013",
@@ -517,7 +685,11 @@
         "dismiss_stale_reviews": true
       },
       "expected_status": "PASS",
-      "rationale": "Generated via independent Ground Truth oracle specification."
+      "rationale": "Generated via independent Ground Truth oracle specification.",
+      "control_id": "GH-001",
+      "dataset_version": "1.0",
+      "case_type": "synthetic",
+      "provenance": "independent-oracle"
     },
     {
       "case_id": "GT-GH001-BENCH-037",
@@ -529,7 +701,11 @@
         "dismiss_stale_reviews": true
       },
       "expected_status": "FAIL",
-      "rationale": "Generated via independent Ground Truth oracle specification."
+      "rationale": "Generated via independent Ground Truth oracle specification.",
+      "control_id": "GH-001",
+      "dataset_version": "1.0",
+      "case_type": "synthetic",
+      "provenance": "independent-oracle"
     },
     {
       "case_id": "GT-GH001-BENCH-024",
@@ -541,7 +717,11 @@
         "dismiss_stale_reviews": true
       },
       "expected_status": "PASS",
-      "rationale": "Generated via independent Ground Truth oracle specification."
+      "rationale": "Generated via independent Ground Truth oracle specification.",
+      "control_id": "GH-001",
+      "dataset_version": "1.0",
+      "case_type": "synthetic",
+      "provenance": "independent-oracle"
     },
     {
       "case_id": "GT-GH001-BENCH-040",
@@ -553,7 +733,11 @@
         "dismiss_stale_reviews": true
       },
       "expected_status": "FAIL",
-      "rationale": "Generated via independent Ground Truth oracle specification."
+      "rationale": "Generated via independent Ground Truth oracle specification.",
+      "control_id": "GH-001",
+      "dataset_version": "1.0",
+      "case_type": "synthetic",
+      "provenance": "independent-oracle"
     },
     {
       "case_id": "GT-GH001-BENCH-041",
@@ -565,7 +749,11 @@
         "dismiss_stale_reviews": true
       },
       "expected_status": "FAIL",
-      "rationale": "Generated via independent Ground Truth oracle specification."
+      "rationale": "Generated via independent Ground Truth oracle specification.",
+      "control_id": "GH-001",
+      "dataset_version": "1.0",
+      "case_type": "synthetic",
+      "provenance": "independent-oracle"
     },
     {
       "case_id": "GT-GH001-BENCH-019",
@@ -577,7 +765,11 @@
         "dismiss_stale_reviews": true
       },
       "expected_status": "PASS",
-      "rationale": "Generated via independent Ground Truth oracle specification."
+      "rationale": "Generated via independent Ground Truth oracle specification.",
+      "control_id": "GH-001",
+      "dataset_version": "1.0",
+      "case_type": "synthetic",
+      "provenance": "independent-oracle"
     },
     {
       "case_id": "GT-GH001-BENCH-080",
@@ -589,7 +781,11 @@
         "dismiss_stale_reviews": true
       },
       "expected_status": "UNKNOWN",
-      "rationale": "Generated via independent Ground Truth oracle specification."
+      "rationale": "Generated via independent Ground Truth oracle specification.",
+      "control_id": "GH-001",
+      "dataset_version": "1.0",
+      "case_type": "synthetic",
+      "provenance": "independent-oracle"
     },
     {
       "case_id": "GT-GH001-BENCH-006",
@@ -601,7 +797,11 @@
         "dismiss_stale_reviews": true
       },
       "expected_status": "PASS",
-      "rationale": "Generated via independent Ground Truth oracle specification."
+      "rationale": "Generated via independent Ground Truth oracle specification.",
+      "control_id": "GH-001",
+      "dataset_version": "1.0",
+      "case_type": "synthetic",
+      "provenance": "independent-oracle"
     },
     {
       "case_id": "GT-GH001-BENCH-025",
@@ -613,7 +813,11 @@
         "dismiss_stale_reviews": true
       },
       "expected_status": "PASS",
-      "rationale": "Generated via independent Ground Truth oracle specification."
+      "rationale": "Generated via independent Ground Truth oracle specification.",
+      "control_id": "GH-001",
+      "dataset_version": "1.0",
+      "case_type": "synthetic",
+      "provenance": "independent-oracle"
     },
     {
       "case_id": "GT-GH001-BENCH-008",
@@ -625,7 +829,11 @@
         "dismiss_stale_reviews": true
       },
       "expected_status": "PASS",
-      "rationale": "Generated via independent Ground Truth oracle specification."
+      "rationale": "Generated via independent Ground Truth oracle specification.",
+      "control_id": "GH-001",
+      "dataset_version": "1.0",
+      "case_type": "synthetic",
+      "provenance": "independent-oracle"
     },
     {
       "case_id": "GT-GH001-BENCH-035",
@@ -637,7 +845,11 @@
         "dismiss_stale_reviews": true
       },
       "expected_status": "PASS",
-      "rationale": "Generated via independent Ground Truth oracle specification."
+      "rationale": "Generated via independent Ground Truth oracle specification.",
+      "control_id": "GH-001",
+      "dataset_version": "1.0",
+      "case_type": "synthetic",
+      "provenance": "independent-oracle"
     },
     {
       "case_id": "GT-GH001-BENCH-086",
@@ -649,7 +861,11 @@
         "dismiss_stale_reviews": null
       },
       "expected_status": "UNKNOWN",
-      "rationale": "Generated via independent Ground Truth oracle specification."
+      "rationale": "Generated via independent Ground Truth oracle specification.",
+      "control_id": "GH-001",
+      "dataset_version": "1.0",
+      "case_type": "synthetic",
+      "provenance": "independent-oracle"
     },
     {
       "case_id": "GT-GH001-BENCH-047",
@@ -661,7 +877,11 @@
         "dismiss_stale_reviews": true
       },
       "expected_status": "FAIL",
-      "rationale": "Generated via independent Ground Truth oracle specification."
+      "rationale": "Generated via independent Ground Truth oracle specification.",
+      "control_id": "GH-001",
+      "dataset_version": "1.0",
+      "case_type": "synthetic",
+      "provenance": "independent-oracle"
     },
     {
       "case_id": "GT-GH001-BENCH-003",
@@ -673,7 +893,11 @@
         "dismiss_stale_reviews": true
       },
       "expected_status": "PASS",
-      "rationale": "Generated via independent Ground Truth oracle specification."
+      "rationale": "Generated via independent Ground Truth oracle specification.",
+      "control_id": "GH-001",
+      "dataset_version": "1.0",
+      "case_type": "synthetic",
+      "provenance": "independent-oracle"
     },
     {
       "case_id": "GT-GH001-BENCH-052",
@@ -685,7 +909,11 @@
         "dismiss_stale_reviews": true
       },
       "expected_status": "FAIL",
-      "rationale": "Generated via independent Ground Truth oracle specification."
+      "rationale": "Generated via independent Ground Truth oracle specification.",
+      "control_id": "GH-001",
+      "dataset_version": "1.0",
+      "case_type": "synthetic",
+      "provenance": "independent-oracle"
     },
     {
       "case_id": "GT-GH001-BENCH-017",
@@ -697,7 +925,11 @@
         "dismiss_stale_reviews": true
       },
       "expected_status": "PASS",
-      "rationale": "Generated via independent Ground Truth oracle specification."
+      "rationale": "Generated via independent Ground Truth oracle specification.",
+      "control_id": "GH-001",
+      "dataset_version": "1.0",
+      "case_type": "synthetic",
+      "provenance": "independent-oracle"
     },
     {
       "case_id": "GT-GH001-BENCH-039",
@@ -709,7 +941,11 @@
         "dismiss_stale_reviews": true
       },
       "expected_status": "FAIL",
-      "rationale": "Generated via independent Ground Truth oracle specification."
+      "rationale": "Generated via independent Ground Truth oracle specification.",
+      "control_id": "GH-001",
+      "dataset_version": "1.0",
+      "case_type": "synthetic",
+      "provenance": "independent-oracle"
     },
     {
       "case_id": "GT-GH001-BENCH-062",
@@ -721,7 +957,11 @@
         "dismiss_stale_reviews": false
       },
       "expected_status": "FAIL",
-      "rationale": "Generated via independent Ground Truth oracle specification."
+      "rationale": "Generated via independent Ground Truth oracle specification.",
+      "control_id": "GH-001",
+      "dataset_version": "1.0",
+      "case_type": "synthetic",
+      "provenance": "independent-oracle"
     },
     {
       "case_id": "GT-GH001-BENCH-105",
@@ -733,7 +973,11 @@
         "dismiss_stale_reviews": null
       },
       "expected_status": "UNKNOWN",
-      "rationale": "Generated via independent Ground Truth oracle specification."
+      "rationale": "Generated via independent Ground Truth oracle specification.",
+      "control_id": "GH-001",
+      "dataset_version": "1.0",
+      "case_type": "synthetic",
+      "provenance": "independent-oracle"
     },
     {
       "case_id": "GT-GH001-BENCH-023",
@@ -745,7 +989,11 @@
         "dismiss_stale_reviews": true
       },
       "expected_status": "PASS",
-      "rationale": "Generated via independent Ground Truth oracle specification."
+      "rationale": "Generated via independent Ground Truth oracle specification.",
+      "control_id": "GH-001",
+      "dataset_version": "1.0",
+      "case_type": "synthetic",
+      "provenance": "independent-oracle"
     },
     {
       "case_id": "GT-GH001-BENCH-007",
@@ -757,7 +1005,11 @@
         "dismiss_stale_reviews": true
       },
       "expected_status": "PASS",
-      "rationale": "Generated via independent Ground Truth oracle specification."
+      "rationale": "Generated via independent Ground Truth oracle specification.",
+      "control_id": "GH-001",
+      "dataset_version": "1.0",
+      "case_type": "synthetic",
+      "provenance": "independent-oracle"
     },
     {
       "case_id": "GT-GH001-BENCH-049",
@@ -769,7 +1021,11 @@
         "dismiss_stale_reviews": true
       },
       "expected_status": "FAIL",
-      "rationale": "Generated via independent Ground Truth oracle specification."
+      "rationale": "Generated via independent Ground Truth oracle specification.",
+      "control_id": "GH-001",
+      "dataset_version": "1.0",
+      "case_type": "synthetic",
+      "provenance": "independent-oracle"
     },
     {
       "case_id": "GT-GH001-BENCH-088",
@@ -781,7 +1037,11 @@
         "dismiss_stale_reviews": null
       },
       "expected_status": "UNKNOWN",
-      "rationale": "Generated via independent Ground Truth oracle specification."
+      "rationale": "Generated via independent Ground Truth oracle specification.",
+      "control_id": "GH-001",
+      "dataset_version": "1.0",
+      "case_type": "synthetic",
+      "provenance": "independent-oracle"
     },
     {
       "case_id": "GT-GH001-BENCH-096",
@@ -793,7 +1053,11 @@
         "dismiss_stale_reviews": null
       },
       "expected_status": "UNKNOWN",
-      "rationale": "Generated via independent Ground Truth oracle specification."
+      "rationale": "Generated via independent Ground Truth oracle specification.",
+      "control_id": "GH-001",
+      "dataset_version": "1.0",
+      "case_type": "synthetic",
+      "provenance": "independent-oracle"
     },
     {
       "case_id": "GT-GH001-BENCH-071",
@@ -805,7 +1069,11 @@
         "dismiss_stale_reviews": false
       },
       "expected_status": "UNKNOWN",
-      "rationale": "Generated via independent Ground Truth oracle specification."
+      "rationale": "Generated via independent Ground Truth oracle specification.",
+      "control_id": "GH-001",
+      "dataset_version": "1.0",
+      "case_type": "synthetic",
+      "provenance": "independent-oracle"
     },
     {
       "case_id": "GT-GH001-BENCH-097",
@@ -817,7 +1085,11 @@
         "dismiss_stale_reviews": null
       },
       "expected_status": "UNKNOWN",
-      "rationale": "Generated via independent Ground Truth oracle specification."
+      "rationale": "Generated via independent Ground Truth oracle specification.",
+      "control_id": "GH-001",
+      "dataset_version": "1.0",
+      "case_type": "synthetic",
+      "provenance": "independent-oracle"
     },
     {
       "case_id": "GT-GH001-BENCH-020",
@@ -829,7 +1101,11 @@
         "dismiss_stale_reviews": true
       },
       "expected_status": "PASS",
-      "rationale": "Generated via independent Ground Truth oracle specification."
+      "rationale": "Generated via independent Ground Truth oracle specification.",
+      "control_id": "GH-001",
+      "dataset_version": "1.0",
+      "case_type": "synthetic",
+      "provenance": "independent-oracle"
     },
     {
       "case_id": "GT-GH001-BENCH-075",
@@ -841,7 +1117,11 @@
         "dismiss_stale_reviews": true
       },
       "expected_status": "UNKNOWN",
-      "rationale": "Generated via independent Ground Truth oracle specification."
+      "rationale": "Generated via independent Ground Truth oracle specification.",
+      "control_id": "GH-001",
+      "dataset_version": "1.0",
+      "case_type": "synthetic",
+      "provenance": "independent-oracle"
     },
     {
       "case_id": "GT-GH001-BENCH-044",
@@ -853,7 +1133,11 @@
         "dismiss_stale_reviews": true
       },
       "expected_status": "FAIL",
-      "rationale": "Generated via independent Ground Truth oracle specification."
+      "rationale": "Generated via independent Ground Truth oracle specification.",
+      "control_id": "GH-001",
+      "dataset_version": "1.0",
+      "case_type": "synthetic",
+      "provenance": "independent-oracle"
     },
     {
       "case_id": "GT-GH001-BENCH-091",
@@ -865,7 +1149,11 @@
         "dismiss_stale_reviews": null
       },
       "expected_status": "UNKNOWN",
-      "rationale": "Generated via independent Ground Truth oracle specification."
+      "rationale": "Generated via independent Ground Truth oracle specification.",
+      "control_id": "GH-001",
+      "dataset_version": "1.0",
+      "case_type": "synthetic",
+      "provenance": "independent-oracle"
     },
     {
       "case_id": "GT-GH001-BENCH-021",
@@ -877,7 +1165,11 @@
         "dismiss_stale_reviews": true
       },
       "expected_status": "PASS",
-      "rationale": "Generated via independent Ground Truth oracle specification."
+      "rationale": "Generated via independent Ground Truth oracle specification.",
+      "control_id": "GH-001",
+      "dataset_version": "1.0",
+      "case_type": "synthetic",
+      "provenance": "independent-oracle"
     },
     {
       "case_id": "GT-GH001-BENCH-001",
@@ -889,7 +1181,11 @@
         "dismiss_stale_reviews": true
       },
       "expected_status": "PASS",
-      "rationale": "Generated via independent Ground Truth oracle specification."
+      "rationale": "Generated via independent Ground Truth oracle specification.",
+      "control_id": "GH-001",
+      "dataset_version": "1.0",
+      "case_type": "synthetic",
+      "provenance": "independent-oracle"
     },
     {
       "case_id": "GT-GH001-BENCH-101",
@@ -901,7 +1197,11 @@
         "dismiss_stale_reviews": null
       },
       "expected_status": "UNKNOWN",
-      "rationale": "Generated via independent Ground Truth oracle specification."
+      "rationale": "Generated via independent Ground Truth oracle specification.",
+      "control_id": "GH-001",
+      "dataset_version": "1.0",
+      "case_type": "synthetic",
+      "provenance": "independent-oracle"
     },
     {
       "case_id": "GT-GH001-BENCH-092",
@@ -913,7 +1213,11 @@
         "dismiss_stale_reviews": null
       },
       "expected_status": "UNKNOWN",
-      "rationale": "Generated via independent Ground Truth oracle specification."
+      "rationale": "Generated via independent Ground Truth oracle specification.",
+      "control_id": "GH-001",
+      "dataset_version": "1.0",
+      "case_type": "synthetic",
+      "provenance": "independent-oracle"
     },
     {
       "case_id": "GT-GH001-BENCH-058",
@@ -925,7 +1229,11 @@
         "dismiss_stale_reviews": false
       },
       "expected_status": "FAIL",
-      "rationale": "Generated via independent Ground Truth oracle specification."
+      "rationale": "Generated via independent Ground Truth oracle specification.",
+      "control_id": "GH-001",
+      "dataset_version": "1.0",
+      "case_type": "synthetic",
+      "provenance": "independent-oracle"
     },
     {
       "case_id": "GT-GH001-BENCH-099",
@@ -937,7 +1245,11 @@
         "dismiss_stale_reviews": null
       },
       "expected_status": "UNKNOWN",
-      "rationale": "Generated via independent Ground Truth oracle specification."
+      "rationale": "Generated via independent Ground Truth oracle specification.",
+      "control_id": "GH-001",
+      "dataset_version": "1.0",
+      "case_type": "synthetic",
+      "provenance": "independent-oracle"
     },
     {
       "case_id": "GT-GH001-BENCH-054",
@@ -949,7 +1261,11 @@
         "dismiss_stale_reviews": true
       },
       "expected_status": "FAIL",
-      "rationale": "Generated via independent Ground Truth oracle specification."
+      "rationale": "Generated via independent Ground Truth oracle specification.",
+      "control_id": "GH-001",
+      "dataset_version": "1.0",
+      "case_type": "synthetic",
+      "provenance": "independent-oracle"
     },
     {
       "case_id": "GT-GH001-BENCH-094",
@@ -961,7 +1277,11 @@
         "dismiss_stale_reviews": null
       },
       "expected_status": "UNKNOWN",
-      "rationale": "Generated via independent Ground Truth oracle specification."
+      "rationale": "Generated via independent Ground Truth oracle specification.",
+      "control_id": "GH-001",
+      "dataset_version": "1.0",
+      "case_type": "synthetic",
+      "provenance": "independent-oracle"
     },
     {
       "case_id": "GT-GH001-BENCH-026",
@@ -973,7 +1293,11 @@
         "dismiss_stale_reviews": true
       },
       "expected_status": "PASS",
-      "rationale": "Generated via independent Ground Truth oracle specification."
+      "rationale": "Generated via independent Ground Truth oracle specification.",
+      "control_id": "GH-001",
+      "dataset_version": "1.0",
+      "case_type": "synthetic",
+      "provenance": "independent-oracle"
     },
     {
       "case_id": "GT-GH001-BENCH-072",
@@ -985,7 +1309,11 @@
         "dismiss_stale_reviews": false
       },
       "expected_status": "UNKNOWN",
-      "rationale": "Generated via independent Ground Truth oracle specification."
+      "rationale": "Generated via independent Ground Truth oracle specification.",
+      "control_id": "GH-001",
+      "dataset_version": "1.0",
+      "case_type": "synthetic",
+      "provenance": "independent-oracle"
     },
     {
       "case_id": "GT-GH001-BENCH-089",
@@ -997,7 +1325,11 @@
         "dismiss_stale_reviews": null
       },
       "expected_status": "UNKNOWN",
-      "rationale": "Generated via independent Ground Truth oracle specification."
+      "rationale": "Generated via independent Ground Truth oracle specification.",
+      "control_id": "GH-001",
+      "dataset_version": "1.0",
+      "case_type": "synthetic",
+      "provenance": "independent-oracle"
     },
     {
       "case_id": "GT-GH001-BENCH-078",
@@ -1009,7 +1341,11 @@
         "dismiss_stale_reviews": true
       },
       "expected_status": "UNKNOWN",
-      "rationale": "Generated via independent Ground Truth oracle specification."
+      "rationale": "Generated via independent Ground Truth oracle specification.",
+      "control_id": "GH-001",
+      "dataset_version": "1.0",
+      "case_type": "synthetic",
+      "provenance": "independent-oracle"
     },
     {
       "case_id": "GT-GH001-BENCH-065",
@@ -1021,7 +1357,11 @@
         "dismiss_stale_reviews": false
       },
       "expected_status": "FAIL",
-      "rationale": "Generated via independent Ground Truth oracle specification."
+      "rationale": "Generated via independent Ground Truth oracle specification.",
+      "control_id": "GH-001",
+      "dataset_version": "1.0",
+      "case_type": "synthetic",
+      "provenance": "independent-oracle"
     },
     {
       "case_id": "GT-GH001-BENCH-030",
@@ -1033,7 +1373,11 @@
         "dismiss_stale_reviews": true
       },
       "expected_status": "PASS",
-      "rationale": "Generated via independent Ground Truth oracle specification."
+      "rationale": "Generated via independent Ground Truth oracle specification.",
+      "control_id": "GH-001",
+      "dataset_version": "1.0",
+      "case_type": "synthetic",
+      "provenance": "independent-oracle"
     },
     {
       "case_id": "GT-GH001-BENCH-028",
@@ -1045,7 +1389,11 @@
         "dismiss_stale_reviews": true
       },
       "expected_status": "PASS",
-      "rationale": "Generated via independent Ground Truth oracle specification."
+      "rationale": "Generated via independent Ground Truth oracle specification.",
+      "control_id": "GH-001",
+      "dataset_version": "1.0",
+      "case_type": "synthetic",
+      "provenance": "independent-oracle"
     },
     {
       "case_id": "GT-GH001-BENCH-093",
@@ -1057,7 +1405,11 @@
         "dismiss_stale_reviews": null
       },
       "expected_status": "UNKNOWN",
-      "rationale": "Generated via independent Ground Truth oracle specification."
+      "rationale": "Generated via independent Ground Truth oracle specification.",
+      "control_id": "GH-001",
+      "dataset_version": "1.0",
+      "case_type": "synthetic",
+      "provenance": "independent-oracle"
     },
     {
       "case_id": "GT-GH001-BENCH-103",
@@ -1069,7 +1421,11 @@
         "dismiss_stale_reviews": null
       },
       "expected_status": "UNKNOWN",
-      "rationale": "Generated via independent Ground Truth oracle specification."
+      "rationale": "Generated via independent Ground Truth oracle specification.",
+      "control_id": "GH-001",
+      "dataset_version": "1.0",
+      "case_type": "synthetic",
+      "provenance": "independent-oracle"
     },
     {
       "case_id": "GT-GH001-BENCH-005",
@@ -1081,7 +1437,11 @@
         "dismiss_stale_reviews": true
       },
       "expected_status": "PASS",
-      "rationale": "Generated via independent Ground Truth oracle specification."
+      "rationale": "Generated via independent Ground Truth oracle specification.",
+      "control_id": "GH-001",
+      "dataset_version": "1.0",
+      "case_type": "synthetic",
+      "provenance": "independent-oracle"
     },
     {
       "case_id": "GT-GH001-BENCH-055",
@@ -1093,7 +1453,11 @@
         "dismiss_stale_reviews": true
       },
       "expected_status": "FAIL",
-      "rationale": "Generated via independent Ground Truth oracle specification."
+      "rationale": "Generated via independent Ground Truth oracle specification.",
+      "control_id": "GH-001",
+      "dataset_version": "1.0",
+      "case_type": "synthetic",
+      "provenance": "independent-oracle"
     },
     {
       "case_id": "GT-GH001-BENCH-076",
@@ -1105,7 +1469,11 @@
         "dismiss_stale_reviews": false
       },
       "expected_status": "UNKNOWN",
-      "rationale": "Generated via independent Ground Truth oracle specification."
+      "rationale": "Generated via independent Ground Truth oracle specification.",
+      "control_id": "GH-001",
+      "dataset_version": "1.0",
+      "case_type": "synthetic",
+      "provenance": "independent-oracle"
     },
     {
       "case_id": "GT-GH001-BENCH-012",
@@ -1117,7 +1485,11 @@
         "dismiss_stale_reviews": true
       },
       "expected_status": "PASS",
-      "rationale": "Generated via independent Ground Truth oracle specification."
+      "rationale": "Generated via independent Ground Truth oracle specification.",
+      "control_id": "GH-001",
+      "dataset_version": "1.0",
+      "case_type": "synthetic",
+      "provenance": "independent-oracle"
     },
     {
       "case_id": "GT-GH001-BENCH-070",
@@ -1129,7 +1501,11 @@
         "dismiss_stale_reviews": false
       },
       "expected_status": "FAIL",
-      "rationale": "Generated via independent Ground Truth oracle specification."
+      "rationale": "Generated via independent Ground Truth oracle specification.",
+      "control_id": "GH-001",
+      "dataset_version": "1.0",
+      "case_type": "synthetic",
+      "provenance": "independent-oracle"
     },
     {
       "case_id": "GT-GH001-BENCH-087",
@@ -1141,7 +1517,11 @@
         "dismiss_stale_reviews": null
       },
       "expected_status": "UNKNOWN",
-      "rationale": "Generated via independent Ground Truth oracle specification."
+      "rationale": "Generated via independent Ground Truth oracle specification.",
+      "control_id": "GH-001",
+      "dataset_version": "1.0",
+      "case_type": "synthetic",
+      "provenance": "independent-oracle"
     },
     {
       "case_id": "GT-GH001-BENCH-014",
@@ -1153,7 +1533,11 @@
         "dismiss_stale_reviews": true
       },
       "expected_status": "PASS",
-      "rationale": "Generated via independent Ground Truth oracle specification."
+      "rationale": "Generated via independent Ground Truth oracle specification.",
+      "control_id": "GH-001",
+      "dataset_version": "1.0",
+      "case_type": "synthetic",
+      "provenance": "independent-oracle"
     },
     {
       "case_id": "GT-GH001-BENCH-102",
@@ -1165,7 +1549,11 @@
         "dismiss_stale_reviews": null
       },
       "expected_status": "UNKNOWN",
-      "rationale": "Generated via independent Ground Truth oracle specification."
+      "rationale": "Generated via independent Ground Truth oracle specification.",
+      "control_id": "GH-001",
+      "dataset_version": "1.0",
+      "case_type": "synthetic",
+      "provenance": "independent-oracle"
     },
     {
       "case_id": "GT-GH001-BENCH-018",
@@ -1177,7 +1565,11 @@
         "dismiss_stale_reviews": true
       },
       "expected_status": "PASS",
-      "rationale": "Generated via independent Ground Truth oracle specification."
+      "rationale": "Generated via independent Ground Truth oracle specification.",
+      "control_id": "GH-001",
+      "dataset_version": "1.0",
+      "case_type": "synthetic",
+      "provenance": "independent-oracle"
     },
     {
       "case_id": "GT-GH001-BENCH-029",
@@ -1189,7 +1581,11 @@
         "dismiss_stale_reviews": true
       },
       "expected_status": "PASS",
-      "rationale": "Generated via independent Ground Truth oracle specification."
+      "rationale": "Generated via independent Ground Truth oracle specification.",
+      "control_id": "GH-001",
+      "dataset_version": "1.0",
+      "case_type": "synthetic",
+      "provenance": "independent-oracle"
     },
     {
       "case_id": "GT-GH001-BENCH-032",
@@ -1201,7 +1597,11 @@
         "dismiss_stale_reviews": true
       },
       "expected_status": "PASS",
-      "rationale": "Generated via independent Ground Truth oracle specification."
+      "rationale": "Generated via independent Ground Truth oracle specification.",
+      "control_id": "GH-001",
+      "dataset_version": "1.0",
+      "case_type": "synthetic",
+      "provenance": "independent-oracle"
     },
     {
       "case_id": "GT-GH001-BENCH-036",
@@ -1213,7 +1613,11 @@
         "dismiss_stale_reviews": true
       },
       "expected_status": "FAIL",
-      "rationale": "Generated via independent Ground Truth oracle specification."
+      "rationale": "Generated via independent Ground Truth oracle specification.",
+      "control_id": "GH-001",
+      "dataset_version": "1.0",
+      "case_type": "synthetic",
+      "provenance": "independent-oracle"
     },
     {
       "case_id": "GT-GH001-BENCH-095",
@@ -1225,7 +1629,11 @@
         "dismiss_stale_reviews": null
       },
       "expected_status": "UNKNOWN",
-      "rationale": "Generated via independent Ground Truth oracle specification."
+      "rationale": "Generated via independent Ground Truth oracle specification.",
+      "control_id": "GH-001",
+      "dataset_version": "1.0",
+      "case_type": "synthetic",
+      "provenance": "independent-oracle"
     },
     {
       "case_id": "GT-GH001-BENCH-004",
@@ -1237,7 +1645,11 @@
         "dismiss_stale_reviews": true
       },
       "expected_status": "PASS",
-      "rationale": "Generated via independent Ground Truth oracle specification."
+      "rationale": "Generated via independent Ground Truth oracle specification.",
+      "control_id": "GH-001",
+      "dataset_version": "1.0",
+      "case_type": "synthetic",
+      "provenance": "independent-oracle"
     },
     {
       "case_id": "GT-GH001-BENCH-015",
@@ -1249,7 +1661,11 @@
         "dismiss_stale_reviews": true
       },
       "expected_status": "PASS",
-      "rationale": "Generated via independent Ground Truth oracle specification."
+      "rationale": "Generated via independent Ground Truth oracle specification.",
+      "control_id": "GH-001",
+      "dataset_version": "1.0",
+      "case_type": "synthetic",
+      "provenance": "independent-oracle"
     },
     {
       "case_id": "GT-GH001-BENCH-082",
@@ -1261,7 +1677,14 @@
         "dismiss_stale_reviews": true
       },
       "expected_status": "UNKNOWN",
-      "rationale": "Generated via independent Ground Truth oracle specification."
+      "rationale": "Generated via independent Ground Truth oracle specification.",
+      "control_id": "GH-001",
+      "dataset_version": "1.0",
+      "case_type": "synthetic",
+      "provenance": "independent-oracle"
     }
-  ]
+  ],
+  "schema_version": "1.0",
+  "dataset_version": "1.0",
+  "control_id": "GH-001"
 }
