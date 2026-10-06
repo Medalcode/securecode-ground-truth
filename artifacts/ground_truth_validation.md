@@ -1,6 +1,6 @@
 # SecureCode Ground Truth Benchmark Validation Report
 
-**Report Generated:** 2026-10-06T03:28:41.788038+00:00  
+**Report Generated:** 2026-10-06T03:44:33.654472+00:00  
 **Benchmark Version:** 1.0.0  
 **Validation Type:** `securecode_ground_truth_benchmark`  
 
@@ -11,7 +11,7 @@
 | Artifact | Repository | Version | Commit Hash |
 |---|---|---|---|
 | **Product Under Test** | `Medalcode/SecureCode` | `0.1.0` | `bbc9c2747373ef31a3e9ba3589ae192842d2fd52` |
-| **Independent Oracle** | `Medalcode/securecode-ground-truth` | `1.0.0` | `f006fb843f13fa09fa4ae39d6c2b0570385b7c1e` |
+| **Independent Oracle** | `Medalcode/securecode-ground-truth` | `1.0.0` | `c1660a1b52c7f9eb38b54f988897f5396b6d6a96` |
 
 - **Synthetic Benchmark Cases:** 205 (GH-001: 105, GH-002: 100)
 - **Empirical Pilot Cases:** 6 (GH-001: 6, GH-002: BLOCKED)

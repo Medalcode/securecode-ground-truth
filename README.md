@@ -68,9 +68,9 @@ Canonical dataset files are cryptographically frozen. Hashes are recorded in `be
 
 | Control | Dataset Type | Path | Cases | File SHA-256 | Canonical JSON SHA-256 |
 |---|---|---|:---:|---|---|
-| **GH-001** | Synthetic Benchmark | `data/ground_truth/gh001_benchmark_105.json` | 105 | `43cf10a45e98e33696d4bb7c32e40c2b77e8139f013ff9e08ddfbfd2fd4a6700` | `9fda9475134c53244c9af0d6ccdfeb9b6cafa6caa98728750b28803085338464` |
+| **GH-001** | Synthetic Benchmark | `data/ground_truth/gh001_benchmark_105.json` | 105 | `8319425d25a1b251f680282495e22a11043093397cf36afcd88a77a1529d7947` | `9fda9475134c53244c9af0d6ccdfeb9b6cafa6caa98728750b28803085338464` |
 | **GH-001** | Empirical Pilot | `data/ground_truth/gh001_ground_truth.json` | 6 | `7418f0da8b8f55da1123068756650434b0ec03e20d575fba1c01e6663656832b` | `d560a93cfe2e4c31f0177853f99b044d2f81190e52b6521c5ef07357e671c045` |
-| **GH-002** | Synthetic Benchmark | `data/ground_truth/gh002_ground_truth.json` | 100 | `bf948b31109de496271378de29e9199cb2154643d5dffc60a98e08f29754628c` | `8f0bd5554014f37c0206acdc1b92e53aa5bcac601265ab3dc6e92428910c6a99` |
+| **GH-002** | Synthetic Benchmark | `data/ground_truth/gh002_ground_truth.json` | 100 | `c285dc542d0f97de0507f71aa601484055a80e6b34d060fb2529c5d4dfbaca13` | `8f0bd5554014f37c0206acdc1b92e53aa5bcac601265ab3dc6e92428910c6a99` |
 
 **Total Synthetic Cases:** 205 | **Total Empirical Cases:** 6 | **Combined Fleet:** 211
 
